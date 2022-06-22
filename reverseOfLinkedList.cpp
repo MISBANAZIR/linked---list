@@ -67,3 +67,5 @@ int main()
 	}
 	return 0;
 }
+// time complexity is O(n)
+// space complexity is O(1)
