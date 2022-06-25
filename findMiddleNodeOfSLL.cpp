@@ -52,11 +52,11 @@ int main()
 	node *temp = head;
 	while(temp != NULL)
 	{
-		printf("%d\t", temp -> data);
+		printf("%d\t", temp);
 		temp = temp -> next;
 	}
 	printf("\n");
-	findMiddleNode(head);
+//	findMiddleNode(head);
 	return 0;
 
 }
